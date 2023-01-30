@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/input.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="./src/script.js"></script>
+    <title>Portfolio - Giuseppe Russo</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="container">
+      <header>
+        <div class="btn-toggle">
+          <i class="fa-sharp fa-solid fa-g"></i>
+          <div class="logo-text">Giuseppe Russo</div>
+        </div>
+        <ul class="container-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contatti</a></li>
+          <li><a href="#">Skill</a></li>
+          <li><a href="#">Altro</a></li>
+          <li><a href="#">Storia</a></li>
+        </ul>
+      </header>
+      <!--Home-->
+      <div class="container-home">
+        <div class="image">
+          <img src="./src/img/blob-final.png" class="blob" />
+        </div>
+        <div class="text">
+          <h5>Sono un <span class="color input">Front-End Developer</span></h5>
+          <h1 class="color">Giuseppe Russo</h1>
+          <p>
+            Sono Giuseppe Russo, un programmatore junior full stack altamente
+            motivato e appassionato di tecnologia. Con un solido background
+            nello sviluppo web, sono in grado di realizzare progetti completi
+            dalla A alla Z, dalla progettazione front-end con HTML, CSS,
+            JavaScript e React fino all'implementazione back-end con Node.js. Con la mia
+            determinazione e la mia passione per la programmazione, sono pronto
+            a mettere le mie competenze al servizio dei progetti più ambiziosi.
+          </p>
+          <div class="button-cv">
+            <button class="cv-1">Download CV</button>
+            <button class="cv">Contattami</button>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook color"></i>
+            <i class="fa-brands fa-instagram color"></i>
+            <i class="fa-brands fa-github color"></i>
+            <i class="fa-brands fa-linkedin color"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      const typed = new Typed(".input", {
+        strings: ["Front-End Developer", "Web Developer", "Bot Creator"],
+        typedSpeed: 70,
+        backSpeed: 55,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
